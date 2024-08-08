@@ -28,3 +28,19 @@ Este proyecto formularios reactivos, ya que como se podrán imaginar es bastante
 8. FormGroup
 
 9. FormArray
+
+
+Temas puntuales 18
+
+1. Validaciones manuales
+
+2. Validaciones asíncronas
+
+3. Validar contra expresiones regulares
+
+4. Separar la lógica de validaciones
+
+5. Estado del formulario
+
+6. Mensajes de error personalizados
+
