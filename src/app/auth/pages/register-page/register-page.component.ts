@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { canBeStrider } from '../../../shared/validators/validators';
+import * as customValidators from '../../../shared/validators/validators';
 
 @Component({
   selector: 'app-register-page',
@@ -13,22 +13,21 @@ export class RegisterPageComponent {
 
   constructor(private fbs: FormBuilder) {
     this.myForm = this.fbs.group({
-      name: ['', [ Validators.required ] ],
-      email: ['', [ Validators.required ] ],
-      username: ['', [ Validators.required, canBeStrider ] ],
+      name: ['', [ Validators.required, customValidators.firstNameAndLastnamePattern] ],
+      email: ['', [ Validators.required , customValidators.emailPattern ] ],
+      username: ['', [ Validators.required, customValidators.canBeStrider ] ],
       password: ['', [ Validators.required, Validators.minLength( 6 ) ] ],
       password2: ['', [ Validators.required ] ],
     });
   }
 
-    
-
-
+  isValidField(field: string) { 
+    // TODO: obtener validacion de campo
+  }
 
   onSubmit(): void {
     this.myForm.markAllAsTouched();
   }
-
 
 
 }
