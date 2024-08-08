@@ -1,27 +1,30 @@
 # FormsApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
+## DEV --- EJECUTAR PROYECTO 
 
-## Development server
+1. instalar dependencias ``` npm install ```
+2. ejecutar ``` ng serve -o ```
+3. Si el proyecto no lo tiene hacer un ``` fork ``` o ``` git clone ``` 
+4. Tomar en cuenta las instalaciones de dependencia y tener la version ``` 20 ``` de ``` node js ```
+5. saber typescript.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+Este proyecto formularios reactivos, ya que como se podrán imaginar es bastante información que digerir, pero lo importante aquí es que comprendamos que Angular cuenta con varias maneras de manejar formularios.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Formularios Reactivos
 
-## Build
+2. Lazyload y tareas relacionadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. Validaciones propias de Angular
 
-## Running unit tests
+4. Validaciones personalizadas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+5. Validaciones asíncronas
 
-## Running end-to-end tests
+6. Arreglos y objetos anidados
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+7. FormBuilder
 
-## Further help
+8. FormGroup
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+9. FormArray
